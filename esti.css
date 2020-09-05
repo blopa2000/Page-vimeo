@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content-img-logo {
+  text-align: center;
+  position: relative;
+}
+
+.form-search {
+  position: absolute;
+  top: 2em;
+  right: 25px;
+}
+
+.form-search input,
+button {
+  background: none;
+  border: none;
+  padding: 5px;
+  color: #fff;
+}
+
+.form-search button i {
+  color: #fff;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.background-search {
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #6bdbfc;
+  border-radius: 5px;
+}
+
+.img-logo-vimeo {
+  width: 10em;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.form-content {
+  width: 35%;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: "Maven Pro", sans-serif;
+  padding: 18px;
+  color: #fff;
+  margin: 3em;
+}
+
+.form-content p {
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  opacity: none;
+}
+
+.form input {
+  margin-bottom: 0.5em;
+  width: 20px auto;
+  height: 28px;
+  border: none;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  width: 40%;
+  background-color: #35b2d6;
+  opacity: 9;
+  transition: all 0.2s ease-in-out;
+}
+.save-content{
+  display: flex;
+  justify-content: space-between;
+}
+.form a {
+  width: 40%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.information-content {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 2em;
+}
+.information-content p {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.information-content p i {
+  margin-right: 1em;
+}
